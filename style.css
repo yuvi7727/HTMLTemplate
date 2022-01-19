@@ -1,0 +1,397 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&display=swap');
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+body
+{
+    --background-color:#d7e3fc;
+    --primary-background:#4566D9;
+    
+}
+a
+{
+    text-decoration: none;
+    color: #343a40;
+}
+li{
+    list-style: none;
+   
+}
+#button
+{
+    display: inline-block;
+    background-color: var(--primary-background);
+    padding: 10px 30px;
+    border-radius: 10px;
+    color: #ffffff;
+   
+}
+
+nav
+{
+    width: 100%;
+    height: 80px;
+    background-color: var(--background-color);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+header nav img
+{
+    width:150px;
+    height: auto;
+}
+.nav-bar a
+{
+    margin-right: 30px;
+}
+/*.main-section
+{
+    width: 100%;
+    height: 100vh;
+}*/
+/*-----------------------all page top part-------------------------------------*/
+main
+{
+    width: 100%;
+    height: 40vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 40vh;
+}
+main .main_right
+{
+    align-self:center;
+    justify-self:center;
+    padding: 0 50px;
+}
+main .left_main .main_post
+{
+    width: 100%;
+    height: 100%;
+    
+}
+/*-----------------------End of all page top part-------------------------------------*/
+.section-first
+{
+    width: 100%;
+    height: 400px;
+    display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.section-first .left-side
+{
+    width: 50%;
+}
+.section-first .right-side 
+{
+    width: 50%;
+    padding: 0 100px;
+}
+
+.section-first .left-side img
+{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+h1
+{
+    font-size: 50px;
+    font-weight: 800;
+}
+/*---------------------Gallary Part----------------------------*/
+.gallary
+{
+    background-color: var(--background-color);
+    padding: 40px 100px;
+    margin: 20px 0;
+    width: 100%;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+    
+}
+.im1 img
+{
+    width: 100%;
+    height: 100%;
+}
+/*------------------Services---------------------------*/
+.main-service
+{
+    width: 100%;
+    height:400px;
+    padding:0  100px;
+    display:flex;
+    justify-content: flex-start;
+   /* align-items: center;*/
+
+}
+.main-service .left-service
+{
+    width: 70%;
+   /* background-color: #d7e3fc;*/
+    padding-top: 150px;
+}
+.main-service .left-service h3
+{
+    color: var(--primary-background);
+}
+.main-service .left-service h2
+{
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.main-service .left-service p
+{
+   margin-bottom: 20px;
+}
+.right-service
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    justify-content: start;
+    gap: 30px;
+}
+.right-service >.one_part
+{
+    border: 1px solid rgb(126, 121, 121);
+    padding: 10px 20px;
+    border-radius: 20px;
+    background-color:1px 5px 10px 12px black;
+    
+}
+.main-service .right-service .one_part img
+{
+    width: 50px;
+    height: 50px;
+    border: 1px solid rgba(0,0,0,0.2);
+    padding: 5px;
+    border-radius: 50px;
+    background-color:1px 1px 1px 2px black;
+}
+.main-service .right-service .one_part p{
+    margin-top: 10px;
+}
+/*----------------------Main Last Part--------------------------*/
+.main_last_part
+{
+   /* margin-top: 50px; */
+    background-color: var(--primary-background);
+    color: #ffffff;
+}
+.last_part
+{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+/*.main_last_part .last_part .button3
+{
+    color: var(--primary-background);
+    background-color: #ffffff;
+}/*---------------------------Our Services Page Design-------------------------------------*/
+.main_service
+{
+    margin: 50px  100px;
+}
+img
+{
+    width: 100%;
+    height: 100%;
+}
+.service_section
+{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 300px 300px 300px 300px;
+    row-gap: 50px;
+    column-gap: 30px;
+    justify-content: center;
+    align-content: center;
+}
+.service_section .grid_part h1
+{
+    font-size: 40px;
+    font-weight: 800;
+}
+.service_section .grid_part h3
+{
+    color: var(--primary-background);
+    margin-bottom: 10px;
+}
+.service_section .grid_part p
+{
+    line-height: 25px;
+}
+/*---------------------Gallary Part----------------------------*/
+.service_last_part 
+{
+    padding: 40px 100px;
+    background-color: var(--background-color);
+}
+.service_last_part .gallary
+{
+    
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows:1fr 1fr;
+    gap: 20px;
+    
+}
+.service_last_part .im1 img
+{
+    width: 100%;
+    height: 100%;
+}
+/*------------------------End of Gallary Par--------------------------------------*/
+/*-------------------------Our Blog Page--------------------------------------------*/
+.blog_main_part 
+{
+    padding: 40px 100px 20px 100px;
+}
+.blog_main_part .gallary1
+{
+    
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows:300px 300px;
+    gap: 30px;
+    align-content: space-between;
+}
+.gallary1 .blog_1
+{
+    border: 0.2px solid rgba(0,0,0,0.2);
+    
+}
+.gallary1 .blog_1 .content_part
+{
+   
+    /*padding: 20px 15px 10px 15px;*/
+    margin-top: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.blog_img
+{
+    height: 150px;
+}
+.content_part h4
+{
+    margin-bottom: 5px;
+}
+.blog_main_part .blog_1 img
+{
+    width: 100%;
+    /*height: 100%;*/
+}
+.content_part #blog_btn
+{
+    background-color: var(--primary-background);
+    display: block;
+    padding: 5px;
+    color: white;
+    text-align: center;
+    margin-top:25px;
+}
+/*------------------------End of Blog Page--------------------------------------*/
+/*------------------------About Us Page-----------------------------------------*/
+.main_part
+{
+    margin: 50px 100px;
+}
+.about_main_part
+{
+   
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 300px 300px;
+    gap: 50px;
+    
+}
+.about_main_part div p
+{
+    margin-top: 10px;
+}
+.about_main_part .about_four
+{
+    align-self: center;
+    
+}
+.about_main_second_part
+{
+    width: 100%;
+   
+}
+.about_second_part div .i1
+{
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+}
+
+
+.about_second_part
+{
+    width:100%;
+    height: auto;
+    padding: 50px 100px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 200px 200px;
+    gap: 20px;
+   align-items: space-between;
+}
+.about_second_part>div
+{
+    border: 0.5px solid rgba(0,0,0,0.2);
+    padding:10px;
+    border-radius: 10px;
+}
+.about_second_part div h3
+{
+    margin: 10px 0;
+}
+
+.about_third_part
+{
+    background-color: var(--background-color);
+    padding: 50px 100px;
+}
+.about_third_part .third_one
+{
+    text-align: center;
+    margin-bottom: 10px;
+}
+.about_third_part .third_one h3
+{
+    color: var(--primary-background);
+}
+.third_secind
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 200px;
+    gap:20px;
+}
+/*------------------------About Us Page-----------------------------------------*/
